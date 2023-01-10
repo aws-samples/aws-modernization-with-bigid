@@ -23,7 +23,7 @@ Parameters:
   GitHubRepo:
     Type: String
     Description: repo name
-    Default: aws-modernization-bigid
+    Default: aws-modernization-with-bigid
   FullRepoURL:
     Type: String
     Description: The full url to the repo
