@@ -10,3 +10,8 @@ SmallID - a platform used to find, catalog, and classify sensitive and at-risk d
 - Personally Identifiable Information (PII) – data that can reveal a person’s identity
 
 
+
+
+SmallID is the first data discovery and protection solution with unmatched coverage across the multi-cloud, SaaS apps, messaging platforms, and dev tools. See why SmallID’s cloud-native, ML-driven capabilities are the right fit for you.
+
+

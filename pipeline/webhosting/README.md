@@ -19,7 +19,7 @@ In this one you will probably want to change the first 5 parameters.  ProjectNam
 > Stack completes in about 1-2 minutes  
 ```
 ### DO NOT FORGET TO CHANGE THE STACK NAME
-aws cloudformation create-stack --stack-name aws-modernization-with-bigid-Pipeline --template-body file://pipeline.yaml --capabilities CAPABILITY_NAMED_IAM --enable-termination-protection
+aws cloudformation create-stack --stack-name aws-modernization-with-bigid-Pipeline-v2 --template-body file://pipeline.yaml --capabilities CAPABILITY_NAMED_IAM --enable-termination-protection
 ```
 
 If you check the Build Pipeline and Build logs you should see files successfully copied to your S3 bucket.
