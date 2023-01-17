@@ -1,5 +1,5 @@
 ---
-title: "1. AWS Event Engine"
+title: "1. AWS Account"
 chapter: false
 weight: 10
 ---
@@ -33,3 +33,7 @@ Please select **US East (N.Virginia)** in the top right corner.
 {{% notice warning %}}
 This account will expire at the end of the workshop and  all the resources created will be automatically de-provisioned. You will not be able to access this account after today.
 {{% /notice %}}
+
+## Self paced workshop
+You'll need to deploy the following cloudformation template available in [Github](https://raw.githubusercontent.com/aws-samples/aws-modernization-with-bigid/main/bootstrap/bootstrap.yaml).
+You should use a demo/sandbox/temporary account to run this workshop, make sure you run the cleanup section after you complete.

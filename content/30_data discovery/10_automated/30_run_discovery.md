@@ -12,9 +12,7 @@ Data source discovery process will take some time to discover resources in your 
 - In the S3 subsection, select each data source and click start scan
 ![Discovery is starting](/images/autodiscovery/s3_init_scan.png)
 
-## Initiate data source scanning for DynamoDB
-- In the DynamoDB subsection, select each data source and click start scan
-![Discovery is starting](/images/autodiscovery/dynamo_init_scan.png)
-
-## Scan progress
-- after several seconds, the scan progress should be marked as completed. On the next page, we will visit catalog and review findings.
+## Explore your catalog
+Scan is ongoing and results will be streamed to SmallID Catalog. You should be automatically redirected to this dialog after clicking "Start scan".
+Let's click on reduce risk.
+![Reduce risk](/images/autodiscovery/reduce_risk.png)
