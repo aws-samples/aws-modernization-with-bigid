@@ -4,16 +4,7 @@ chapter: false
 weight: 50
 ---
 
-### Explore catalog
-![Catalog findings](/images/new_ds_structured/catalog_any_PI.png)
-
-In this case, each object is a different table found in our RDS database.
-
-### Explore Employees table structure
-In the catalog, select the employees and observe colum structure
-![Catalog findings](/images/new_ds_structured/explore_employee.png)
-
-
-### Identify tables where cleartext password are present
-
-Filter on "classifier.Cleartext Password" and find where cleartext passwords are present
+### Explore catalog and find cleartext password in databases
+Navigate to classifcaition in the left menu and search for "password"
+![cleartext password](/images/new_ds_structured/export_cleartext.png)
+You are able to extract a list of tables (RDS and DynamoDB) where cleartext passwords have been detected!
