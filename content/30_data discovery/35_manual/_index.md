@@ -1,5 +1,5 @@
 ---
-title: "Scanning RDS"
+title: "Module 2: Scanning RDS"
 chapter: true
 weight: 35
 ---

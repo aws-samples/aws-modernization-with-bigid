@@ -1,5 +1,5 @@
 ---
-title: "Settings"
+title: "Scan Settings"
 chapter: false
 weight: 30
 ---

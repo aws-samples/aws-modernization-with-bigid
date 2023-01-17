@@ -21,7 +21,10 @@ As possible, use the filter panel in the catalog to generate the query for you. 
 TODO
 
 ## Create a saved query
-TODO
+field IN ("classifier.Cleartext Password near Term")
+field IN ("classifier.US SSN")
+
+query.devday IN ( "ssn", "password" )
 ## Use a saved query in the catalog
 Rather than enter the query statement, we refer to the saved query with the reserved word “query” then dot, followed by the query name, equals sign and query value.  Press the Enter key (or click the magnifying glass icon) to execute the saved query.
 ## Use a saved query in the policy

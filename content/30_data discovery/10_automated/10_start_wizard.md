@@ -1,5 +1,5 @@
 ---
-title: "Countries and Regulations"
+title: "Autodiscovery wizard"
 chapter: false
 weight: 10
 ---
