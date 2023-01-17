@@ -25,3 +25,11 @@ Policy Type determines what the query counts:
 - __Privacy__ causes the query to count metadata records in the SmallID database,
 - __Access Governance__ causes the query to count objects (tables or files) that contain Personal Information (PI)
 - __Catalog__ causes the query to count objects regardless of whether they contain PI.
+
+### Create your own policy
+Navigate to action center -> policies:
+![dashboard populated](/images/business_tools/policy_devday.png)
+
+You can now get an alert when new findings match your criteria.
+
+

@@ -1,8 +1,8 @@
 ---
-title: "Autodiscovery Wizard"
+title: "Module 1 - Autodiscovery"
 chapter: true
 weight: 10
 ---
 
-# Autodiscovery Wizard
+# Autodiscovery module
 {{% children showhidden="false" %}}

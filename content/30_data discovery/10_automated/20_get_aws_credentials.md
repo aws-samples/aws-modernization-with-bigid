@@ -18,6 +18,8 @@ Click on the "Security credentials" tab and create a new access key. Download th
 ### Fill SmallID with AWS Credentials
 - Open the CSV file and copy paste the credentials in the SmallID data discovery wizard.
 - Test the connection. You should be able to see green lights for each connector type
+{{% notice info %}}
+You might have red statuses for AWS service due to an existing bug in the Test Connection feature. We are working on this to get it resolved. You should be able to proceed.
+{{% /notice %}}
 ![Copy credentials to wizard](/images/autodiscovery/green.png)
-
 You are now ready to start the discovery process by clicking the "Start discovery" button.

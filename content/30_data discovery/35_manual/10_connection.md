@@ -35,16 +35,3 @@ With those values, populate your new datasource in SmallID. Then Click on "Test 
 
 You connection should be green
 ![connection is green](/images/new_ds_structured/green.jpg)
-
-
-#### Connection details
-Now that connection is green, click on next to go to Connection details.
-#### Owners
-You can put any email address and this will dynamically create a new users in the system.
-![details section](/images/new_ds_structured/details.png)
-
-#### Scan settings
-Click on next to jump to scan settings. Here you can configure a couple of different options.
-For now, we will only enable classifiers. Click on Save button to save your data source.
-
-![enable classifiers](/images/new_ds_structured/enable_classifiers.png)
