@@ -2,6 +2,7 @@
 title: "Discover data sources"
 chapter: false
 weight: 30
+description: "Launch your first scan"
 ---
 
 ## Data source discovery

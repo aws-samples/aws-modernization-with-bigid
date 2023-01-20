@@ -8,7 +8,8 @@ weight: 1
 
 ### Welcome
 
-In this workshop you will learn smallID
+In this workshop you will learn to use SmallID to discover your data residing in an AWS Account. You don't need to have any previous exposure to the SmallID platform nor to the AWS Console.
+
 
 
 {{% notice warning %}}

@@ -19,10 +19,10 @@ As possible, use the filter panel in the catalog to generate the query for you. 
 ## Create a saved query
 Navigate to Administration->Saved Queries.
 ### Create a first query for cleartext password
-`field IN ("classifier.Cleartext Password near Term"`
+Query: `field IN ("classifier.Cleartext Password near Term")`
 ![dashboard populated](/images/business_tools/saved_query_password.png)
 ### Create a second query for credit card detection
-`field IN ("classifier.Credit Card")`
+Query: `field IN ("classifier.Credit Card")`
 ![dashboard populated](/images/business_tools/saved_query_cc.png)
 
 ## Use a saved query in the catalog

@@ -15,8 +15,19 @@ Get to know SmallID and understand how it works with AWS environment. During thi
 
 # Workshop structure
 
-- Provision AWS account with sample data
-- Declare & scan your first data source in SmallID
-- Understand results of your first scan
+
+#### Module 1 - Autodiscovery
+- Use AWS autodiscovery to onboard AWS Data sources in SmallID
 - Scan data at AWS account scale.
-- Leverage Users and policies to take actions
+- Understand results of your first scan
+- Challenge #1 - find credit card information in S3 buckets
+
+#### Module 2 - Scanning RDS
+- Explore SmallID Connectors capabilities
+- Initiate scans and review results
+- Challenge #2 - find cleartext password in databases
+
+#### Going Further
+- Leverage Sensitivity classifcation to get risk insights about your data
+- Use saved queries to transform technical queries into business queries
+- Leverage Users and policies to get alerted and take actions on new findings
