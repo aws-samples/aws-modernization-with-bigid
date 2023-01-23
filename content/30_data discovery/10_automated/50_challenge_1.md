@@ -2,6 +2,7 @@
 title: "Challenge #1"
 chapter: false
 weight: 50
+description: "Explore your findings"
 ---
 
 ## Data Catalog
@@ -21,4 +22,9 @@ The resulting query should be:
 
 You can use SmallID Classification blade to have a nicer view of your finding related to a specific classifiers
 
+#### Navigate to classification and findings
+![navigate to classification](/images/autodiscovery/nav-classification.png)
+#### Look for credit card classifications and export findings
+ - type `credit` in the search bar and execute search
+ - then click on the right menu icon in the __Objects__ section and click export to download the list of objects
 ![export object via classification UI](/images/autodiscovery/classification_cc_ui.png)

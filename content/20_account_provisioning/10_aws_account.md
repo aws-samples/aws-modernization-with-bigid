@@ -37,3 +37,19 @@ This account will expire at the end of the workshop and  all the resources creat
 ## Self paced workshop
 You'll need to deploy the following cloudformation template available in [Github](https://raw.githubusercontent.com/aws-samples/aws-modernization-with-bigid/main/bootstrap/bootstrap.yaml).
 You should use a demo/sandbox/temporary account to run this workshop, make sure you run the cleanup section after you complete.
+
+## Verify that your AWS Account has been correctly populated
+
+### Cloudformation
+Login into [Cloudformation console](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks), you should have 3 different cloudformation stacks with a CREATE_COMPLETE status __(stack names can be different)__
+![S3](/images/setup/cft.png)
+
+### S3
+Login into [S3 Console](https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1), you should have 2 buckets created
+![S3](/images/setup/s3.png)
+### RDS
+Login into [RDS Console](https://us-east-1.console.aws.amazon.com/rds/home?region=us-east-1#databases:), you should have 1 RDS mysql database created
+![RDS](/images/setup/rds.png)
+### DynamoDB
+Login into [DynamoDB Console](https://us-east-1.console.aws.amazon.com/dynamodbv2/home?region=us-east-1#item-explorer?), you should have 1 DynamoDB table with items in it.
+![dynamoItems](/images/setup/dynamoitems.png)

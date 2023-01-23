@@ -2,6 +2,7 @@
 title: "Declare a RDS data source"
 chapter: false
 weight: 10
+description: "Create a new MySQL connector and get credentials from AWS SecretManager"
 ---
 Your account was provisioned and we created an RDS MySQL instance for you. RDS is a distributed relational database AWS service.
 
@@ -35,3 +36,5 @@ With those values, populate your new datasource in SmallID. Then Click on "Test 
 
 You connection should be green
 ![connection is green](/images/new_ds_structured/green.jpg)
+Click on next to navigate to the connection details tab
+![connection is green](/images/new_ds_structured/next.png)

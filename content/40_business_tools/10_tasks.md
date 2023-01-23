@@ -14,6 +14,3 @@ A task is a “to do” item assigned to a SmallID user, to take action in respo
 - Resolve the task
 
 ![tasks](/images/tasks.png)
-
-### Users
-Tasks are assigned to a user. SmallID gives you access management functionality. Let's review this in the section "Access Management"

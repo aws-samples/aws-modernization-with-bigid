@@ -2,6 +2,7 @@
 title: "Connection Details"
 chapter: false
 weight: 20
+description: "Declare location and owners"
 ---
 
 #### Connection details
