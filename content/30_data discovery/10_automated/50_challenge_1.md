@@ -13,10 +13,10 @@ To open the data catalog, navigate to the Catalog section in the left panel.
 Everytime we scan data, SmallID maintains a stateful view of the objects and findings. It's like a central repository for all the metadata SmallID was able to collect during its scan process. Please note that SmallID (or BigID) never copy your actual data from your data sources.
 ### Identify S3 objects where Credit card information is present
 
-In order to do this, you can do the following query in the catalog. Try to find on the left menu "classifier.Credit Card".
+In order to do this, you can do the following query in the catalog. Try to find on the left menu "classifier.Credit Card (Narrow)".
 ![Find attribute](/images/autodiscovery/find_cc.png)
 The resulting query should be:
-`field IN ("classifier.Credit Card")`
+`field IN ("classifier.Credit Card (Narrow)")`
 
 ### Exporting a list of datasource containing Credit Card information
 
