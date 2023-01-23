@@ -2,6 +2,7 @@
 title: "Challenge #2"
 chapter: false
 weight: 50
+description: "Explore your findings"
 ---
 
 ### Look for credit card classifications and export findings

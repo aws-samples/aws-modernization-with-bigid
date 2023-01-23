@@ -2,6 +2,7 @@
 title: "Trigger a full scan"
 chapter: false
 weight: 40
+description: "Refresh your catalog with running a full scan over all data sources"
 ---
 
 
@@ -14,11 +15,10 @@ weight: 40
 
 1. First click on Saved Profile at the top right
 2. Then look for Full Data Source Scan profile and hover the right section and start a new scan.
-
 ![](/images/new_ds_structured/full_ds_scan.png)
-![](/images/new_ds_structured/keep_disabled.png)
-3. If you are prompted to enable classifier tuning, keep it disabled and click run
-You can create your own scan profile to create tailor made scanning activity, both in terms of scanning type and data source.
+3. If the following dialog appears, please click on run to trigger the full scan.
+![](/images/new_ds_structured/run_scan.png)
+
 
 ### Wait for the scan to complete
 The scan you initiated will be listed in the scan activity.
