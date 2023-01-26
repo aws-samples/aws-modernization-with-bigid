@@ -7,7 +7,8 @@ from account_setup.account_setup_stack import AccountSetupStack
 
 
 app = cdk.App()
-AccountSetupStack(app, "AccountSetupStack",
+stackName = app.node.try_get_context("stackName")
+AccountSetupStack(app, stackName if stackName else "bigid-aws-devday-workshop",
     # If you don't specify 'env', this stack will be environment-agnostic.
     # Account/Region-dependent features and context lookups will not work,
     # but a single synthesized template can be deployed anywhere.
