@@ -3,7 +3,7 @@ Description: Automatic deployment of a GITHUB CDK project via a pure cloudformat
 Parameters:
   GithubCDKProjectUrl:
     Type: String
-    Default: https://github.com/bigexchange/aws-devday-bigid/
+    Default: https://github.com/aws-samples/aws-modernization-with-bigid/
   GithubCDKProjectPath:
     Type: String
     Default: ./account-setup
