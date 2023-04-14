@@ -19,7 +19,16 @@ class AccountSetupStack(Stack):
 
     def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None:
         super().__init__(scope, construct_id, **kwargs)
-        vpc = ec2.Vpc(self, "db_vpc", cidr="10.0.0.0/16", max_azs=2)
+        vpc = ec2.Vpc(self, "db_vpc",
+                            cidr="10.0.0.0/16",
+                            max_azs=2,
+                            subnet_configuration =[
+                                {
+                                    'cidrMask': 24,
+                                    'name': 'rds-public-devday',
+                                    'subnetType': ec2.SubnetType.PUBLIC
+                                }
+                            ])
 
         #create a bucket
         bucket = s3.Bucket(self, "MyFirstBucket",
@@ -42,6 +51,8 @@ class AccountSetupStack(Stack):
                                   ),
                                   publicly_accessible=True,
                                   security_groups=[db_sg])
+        #fix the race of RDS failing due to VPC not being public yet
+        db.node.add_dependency(vpc.internet_connectivity_established)
 
         #find existing source bucket (to share)
         bucket_source = s3.Bucket.from_bucket_name(self,
@@ -125,6 +136,6 @@ class AccountSetupStack(Stack):
                              on_update=trigger_build)
         with open("assets/autodiscovery_policy.json") as policy_file:
             policy_document = iam.PolicyDocument.from_json(json.load(policy_file))
-            policy = iam.ManagedPolicy(self, "SmallIDAutodiscoveryPolicy", document=policy_document)
-            iam.User(self, "SmallIDAutomation", managed_policies=[policy], user_name="SmallIDAutomation" )
+            policy = iam.ManagedPolicy(self, "SmallIDAutodiscoveryPolicy-"+construct_id, document=policy_document)
+            iam.User(self, "SmallID-"+construct_id, managed_policies=[policy])
 
